@@ -92,7 +92,7 @@ Ctrl + P + Q
 
 Show the last commands executed in the container terminal
 
-```
+```sh
 docker container logs <containerName>
 ```
 
@@ -103,7 +103,7 @@ docker container inspect <containerName>
 ```
 
 Create a container with a mapped directory
-```
+```psh
 docker container run -it -v <hostAbsolutePath>:<dockerPath> --name <containerName> <imageName> sh
 ```
 - To add read only permission, add :ro after \<dockerPath>
