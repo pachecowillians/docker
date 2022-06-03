@@ -118,3 +118,52 @@ Run commands in non-interactive containers
 ```zsh
 docker container exec -it <containerName> sh
 ```
+
+Image is a model used to create a container
+
+Container is an "instance" of an image
+
+Create an docker image from a container
+```zsh
+docker container commit <containerName> <imageName>
+```
+
+List all images
+```zsh
+docker image ls
+```
+
+Generate a `.tar` file from a docker image
+```zsh
+docker image save -o <fileName>.tar <imageName>
+```
+
+Remove image
+```zsh
+docker image rm <imageName>
+```
+
+Load an image from `.tar` file
+```zsh
+docker image load -i <fileName>.tar
+```
+
+Run container and remove it when exit
+```zsh
+docker container run -it --rm --name <containerName> <imageName> sh
+```
+
+Force to remove a container
+```zsh
+docker container rm -f <containerName>
+```
+
+Show the history of an image
+```zsh
+docker image history <imageName>
+```
+
+Create an image from a Dockerfile
+```zsh
+docker image build -t <imageName> <dockerfilePath>
+```
