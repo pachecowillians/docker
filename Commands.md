@@ -2,103 +2,104 @@
 
 Run Docker commands in linux without sudo
 
-```bash
+```zsh
 sudo chmod 666 /var/run/docker.sock
 ```
 
 Create a new container
 
-```
+```zsh
 docker container create --name <containerName> -it <imageName> sh
 ```
 
 List running containers
 
-```
+```zsh
 docker container ls
 ```
 
 List stopped/running containers
 
-```
+```zsh
+
 docker container ls -a
 ```
 
 Start a container
 
-```
+```zsh
 docker container start <containerName>
 ```
 
 Stop a container
 
-```
+```zsh
 docker container stop <containerName>
 ```
 
 Run command line of an interactive container
 
-```
+```zsh
 docker container attach <containerName>
 ```
 
 Remove a container
 
-```
+```zsh
 docker container rm <containerName>
 ```
 
 Start and attach a container
 
-```
+```zsh
 docker container start -ia <containerName>
 ```
 
 Create, run and attach a container
 
-```
+```zsh
 docker container run -it --name <containerName> <imageName> sh
 ```
 
 Rename a container
 
-```
+```zsh
 docker container rename <currentName> <newName>
 ```
 
 Run a command without enter in container
 
-```
+```zsh
 docker container exec <containerName> <command>
 ```
 
 Copy a file from a local directory to a docker container directory
 
-```
+```zsh
 docker container cp <localDirectory> <containerName>:<containerDirectory>
 ```
 
 Copy a file from a docker container directory to a local directory
 
-```
+```zsh
 docker container cp <containerName>:<containerDirectory> <localDirectory> 
 ```
 
 Exit from an attached container without stop it
 
-```
+```zsh
 Ctrl + P + Q
 ```
 
 Show the last commands executed in the container terminal
 
-```sh
+```zsh
 docker container logs <containerName>
 ```
 
 Get information about the container
 
-```console
+```zsh
 docker container inspect <containerName>
 ```
 
