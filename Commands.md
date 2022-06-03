@@ -103,13 +103,13 @@ docker container inspect <containerName>
 ```
 
 Create a container with a mapped directory
-```ps
+```zsh
 docker container run -it -v <hostAbsolutePath>:<dockerPath> --name <containerName> <imageName> sh
 ```
 - To add read only permission, add :ro after \<dockerPath>
 
 Export a port from Docker container
-```shell
+```zsh
 docker container run -d -p 80:80 --name <containerName> <imageName>
 ```
 
