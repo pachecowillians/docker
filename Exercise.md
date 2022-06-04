@@ -50,6 +50,8 @@ Now, if you type the command below, you can see the ip address of the server in 
 docker container inspect container-ubuntu
 ```
 
+<br/>
+
 **2. Generate an image called ubuntu-wps using the `commit` command**
 
 To generate the image from container, just run the command below:
@@ -64,6 +66,8 @@ Now, you can use the command below to see that the image was created:
 docker image ls
 ```
 
+<br/>
+
 **3. Export the image to the ubuntu-wps.tar using the command `save`**
 
 To export an image to a `.tar` file, use the following command:
@@ -76,4 +80,20 @@ Now, you can use the command below verify if the `.tar` file was created:
 
 ```zsh
 ls
+```
+
+<br/>
+
+**4. Remove the ubuntu-wps image**
+
+To remove the image, run the command below:
+
+```zsh
+docker image rm ubuntu-wps
+```
+
+To verify if the image was deleted, use the following command
+
+```zsh
+docker image ls
 ```
