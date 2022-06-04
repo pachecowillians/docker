@@ -167,3 +167,23 @@ Create an image from a Dockerfile
 ```zsh
 docker image build -t <imageName> <dockerfilePath>
 ```
+
+List volumes
+```zsh
+docker volume ls
+```
+
+Show information about the volume
+```zsh
+docker volume inspect <volumeName>
+```
+
+Create a new volume
+```zsh
+docker volume create <volumeName>
+```
+
+Run a container with a volume created
+```zsh
+docker container run -it --name <containerName> -v <volumeName>:<containerPath> <imageName> sh
+```
