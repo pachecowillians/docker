@@ -22,7 +22,7 @@
 
 <br/>
 
-1\. Run in interactive mode a container using the ubuntu image. Use `apt-get` to install the NGINX and start NGINX
+**1\. Run in interactive mode a container using the ubuntu image. Use `apt-get` to install the NGINX and start NGINX**
 
 
 First, to create the container we need to run the command below:

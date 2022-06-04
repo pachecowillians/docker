@@ -187,3 +187,8 @@ Run a container with a volume created
 ```zsh
 docker container run -it --name <containerName> -v <volumeName>:<containerPath> <imageName> sh
 ```
+
+Remove a volume
+```zsh
+docker volume rm <volumeName>
+```
