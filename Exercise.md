@@ -97,3 +97,19 @@ To verify if the image was deleted, use the following command
 ```zsh
 docker image ls
 ```
+
+<br/>
+
+**5. Import the image from ubuntu-wps.tar using the command `load`**
+
+To import the image from the `.tar` file, use the command below:
+
+```zsh
+docker image load -i ubuntu-wps.tar
+```
+
+To verify if the image was loaded correctly, use the following command
+
+```zsh
+docker image ls
+```
