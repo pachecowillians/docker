@@ -120,3 +120,19 @@ To verify if the image was loaded correctly, use the following command
 ```zsh
 docker image ls
 ```
+
+<br/>
+
+**6. Run a container from the imported image**
+
+To run the container, exporting the port 80 from the image `ubuntu-wps`, use the following command:
+
+```zsh
+docker container run -it --rm --name container-ubuntu -p 80:80 ubuntu-wps sh
+```
+
+Now, in the container command line just type the command below to start nginx and you can verify in your browser in the ip address or `localhost` that nginx is working.
+
+```zsh
+service nginx start
+```
