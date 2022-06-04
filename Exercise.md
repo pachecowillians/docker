@@ -49,3 +49,17 @@ Now, if you type the command below, you can see the ip address of the server in 
 ```zsh
 docker container inspect container-ubuntu
 ```
+
+**2. Generate an image called ubuntu-wps using the `commit` command**
+
+To generate the image from container, just run the command below:
+
+```zsh
+docker container commit container-ubuntu ubuntu-wps
+```
+
+Now, you can use the command below to see that the image was created:
+
+```zsh
+docker image ls
+```
