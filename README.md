@@ -1,2 +1,3 @@
-# Docker
-This is a list of Docker commands and information about it.
+# 🐳 Docker 🐳
+
+This is a repository to store information, tests and exercises about Docker.
