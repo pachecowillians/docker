@@ -92,10 +92,17 @@ To remove the image, run the command below:
 docker image rm ubuntu-wps
 ```
 
-To verify if the image was deleted, use the following command
+To stop and remove the container created previously, run the commands below:
+```zsh
+docker container stop container-ubuntu
+docker container rm container-ubuntu
+```
+
+To verify if the image and the container was deleted, use the following commands
 
 ```zsh
 docker image ls
+docker container ls -a
 ```
 
 <br/>
