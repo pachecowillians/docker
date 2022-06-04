@@ -63,3 +63,17 @@ Now, you can use the command below to see that the image was created:
 ```zsh
 docker image ls
 ```
+
+**3. Export the image to the ubuntu-wps.tar using the command `save`**
+
+To export an image to a `.tar` file, use the following command:
+
+```zsh
+docker image save -o ubuntu-wps.tar ubuntu-wps
+```
+
+Now, you can use the command below verify if the `.tar` file was created:
+
+```zsh
+ls
+```
