@@ -265,6 +265,10 @@ docker container commit <containerName> <imageName>
 
 <br/>
 
+List of commands to manipulate images on docker.
+
+<br/>
+
 ### Docker image ls
 
 <br/>
@@ -332,6 +336,9 @@ docker image build -t <imageName> <dockerfilePath>
 <br/>
 
 ## Docker volume
+<br/>
+
+List of commands to manipulate volumes on docker.
 
 <br/>
 
