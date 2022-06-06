@@ -16,6 +16,12 @@
     - [Docker container inspect](#docker-container-inspect)
     - [Docker container commit](#docker-container-commit)
 - [Docker image](#docker-image)
+    - [Docker image ls](#docker-image-ls)
+    - [Docker image save](#docker-image-save)
+    - [Docker image rm](#docker-image-rm)
+    - [Docker image load](#docker-image-load)
+    - [Docker image history](#docker-image-history)
+    - [Docker image build](#docker-image-build)
 - [Docker volume](#docker-volume)
 
 
