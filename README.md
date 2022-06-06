@@ -28,8 +28,11 @@
     - [Docker volume create](#docker-volume-create)
     - [Docker volume rm](#docker-volume-rm)
 
+<br/>
 
 ## Docker on linux
+
+<br/>
 
 Run Docker commands in linux without sudo
 
@@ -43,11 +46,19 @@ Exit from an attached container without stop it
 Ctrl + P + Q
 ```
 
+<br/>
+
 ## Docker container
+
+<br/>
 
 List of commands to manipulate containers on docker
 
+<br/>
+
 ### Docker container create
+
+<br/>
 
 Create a new container
 
@@ -55,7 +66,11 @@ Create a new container
 docker container create --name <containerName> -it <imageName> sh
 ```
 
+<br/>
+
 ### Docker container ls
+
+<br/>
 
 List running containers
 
@@ -70,7 +85,11 @@ List stopped/running containers
 docker container ls -a
 ```
 
+<br/>
+
 ### Docker container start
+
+<br/>
 
 Start a container
 
@@ -84,7 +103,11 @@ Start and attach a container
 docker container start -ia <containerName>
 ```
 
+<br/>
+
 ### Docker container stop
+
+<br/>
 
 Stop a container
 
@@ -92,7 +115,11 @@ Stop a container
 docker container stop <containerName>
 ```
 
+<br/>
+
 ### Docker container attach
+
+<br/>
 
 Run command line of an interactive container
 
@@ -100,7 +127,11 @@ Run command line of an interactive container
 docker container attach <containerName>
 ```
 
+<br/>
+
 ### Docker container rm
+
+<br/>
 
 Remove a container
 
@@ -113,7 +144,11 @@ Force to remove a container
 docker container rm -f <containerName>
 ```
 
+<br/>
+
 ### Docker container run
+
+<br/>
 
 Create, run and attach a container
 
@@ -142,7 +177,11 @@ Run a container with a volume created
 docker container run -it --name <containerName> -v <volumeName>:<containerPath> <imageName> sh
 ```
 
+<br/>
+
 ### Docker container rename
+
+<br/>
 
 Rename a container
 
@@ -150,7 +189,11 @@ Rename a container
 docker container rename <currentName> <newName>
 ```
 
+<br/>
+
 ### Docker container exec
+
+<br/>
 
 Run a command without enter in container
 
@@ -163,7 +206,11 @@ Run commands in non-interactive containers
 docker container exec -it <containerName> sh
 ```
 
+<br/>
+
 ### Docker container cp
+
+<br/>
 
 Copy a file from a local directory to a docker container directory
 
@@ -177,7 +224,11 @@ Copy a file from a docker container directory to a local directory
 docker container cp <containerName>:<containerDirectory> <localDirectory> 
 ```
 
+<br/>
+
 ### Docker container logs
+
+<br/>
 
 Show the last commands executed in the container terminal
 
@@ -185,7 +236,11 @@ Show the last commands executed in the container terminal
 docker container logs <containerName>
 ```
 
+<br/>
+
 ### Docker container inspect
+
+<br/>
 
 Get information about the container
 
@@ -193,82 +248,129 @@ Get information about the container
 docker container inspect <containerName>
 ```
 
+<br/>
+
 ### Docker container commit
+
+<br/>
 
 Create an docker image from a container
 ```zsh
 docker container commit <containerName> <imageName>
 ```
 
+<br/>
+
 ## Docker image
 
+<br/>
+
 ### Docker image ls
+
+<br/>
 
 List all images
 ```zsh
 docker image ls
 ```
 
+<br/>
+
 ### Docker image save
+
+<br/>
 
 Generate a `.tar` file from a docker image
 ```zsh
 docker image save -o <fileName>.tar <imageName>
 ```
 
+<br/>
 
 ### Docker image rm
+
+<br/>
 
 Remove image
 ```zsh
 docker image rm <imageName>
 ```
 
+<br/>
+
 ### Docker image load
+
+<br/>
 
 Load an image from `.tar` file
 ```zsh
 docker image load -i <fileName>.tar
 ```
 
+<br/>
+
 ### Docker image history
+
+<br/>
 
 Show the history of an image
 ```zsh
 docker image history <imageName>
 ```
 
+<br/>
+
 ### Docker image build
+
+<br/>
 
 Create an image from a Dockerfile
 ```zsh
 docker image build -t <imageName> <dockerfilePath>
 ```
 
+<br/>
+
 ## Docker volume
 
+<br/>
+
 ### Docker volume ls
+
+<br/>
 
 List volumes
 ```zsh
 docker volume ls
 ```
 
+<br/>
+
 ### Docker volume inspect
+
+<br/>
 
 Show information about the volume
 ```zsh
 docker volume inspect <volumeName>
 ```
 
+<br/>
+
 ### Docker volume create
+
+<br/>
 
 Create a new volume
 ```zsh
 docker volume create <volumeName>
 ```
 
+<br/>
+
 ### Docker volume rm
+
+<br/>
 
 Remove a volume
 ```zsh
