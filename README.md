@@ -6,6 +6,8 @@ Run Docker commands in linux without sudo
 sudo chmod 666 /var/run/docker.sock
 ```
 
+## Docker container
+
 Create a new container
 
 ```zsh
@@ -85,12 +87,6 @@ Copy a file from a docker container directory to a local directory
 docker container cp <containerName>:<containerDirectory> <localDirectory> 
 ```
 
-Exit from an attached container without stop it
-
-```zsh
-Ctrl + P + Q
-```
-
 Show the last commands executed in the container terminal
 
 ```zsh
@@ -119,13 +115,30 @@ Run commands in non-interactive containers
 docker container exec -it <containerName> sh
 ```
 
-Image is a model used to create a container
-
-Container is an "instance" of an image
-
 Create an docker image from a container
 ```zsh
 docker container commit <containerName> <imageName>
+```
+
+Run container and remove it when exit
+```zsh
+docker container run -it --rm --name <containerName> <imageName> sh
+```
+
+Force to remove a container
+```zsh
+docker container rm -f <containerName>
+```
+
+Run a container with a volume created
+```zsh
+docker container run -it --name <containerName> -v <volumeName>:<containerPath> <imageName> sh
+```
+
+Exit from an attached container without stop it
+
+```zsh
+Ctrl + P + Q
 ```
 
 List all images
@@ -146,16 +159,6 @@ docker image rm <imageName>
 Load an image from `.tar` file
 ```zsh
 docker image load -i <fileName>.tar
-```
-
-Run container and remove it when exit
-```zsh
-docker container run -it --rm --name <containerName> <imageName> sh
-```
-
-Force to remove a container
-```zsh
-docker container rm -f <containerName>
 ```
 
 Show the history of an image
@@ -181,11 +184,6 @@ docker volume inspect <volumeName>
 Create a new volume
 ```zsh
 docker volume create <volumeName>
-```
-
-Run a container with a volume created
-```zsh
-docker container run -it --name <containerName> -v <volumeName>:<containerPath> <imageName> sh
 ```
 
 Remove a volume
