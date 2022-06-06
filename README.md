@@ -1,3 +1,9 @@
+<div align="center">
+    <img src="./DockerLogo.svg" height="200"> 
+</div>
+
+<br/>
+
 # Summary
 
 - [Docker on linux](#docker-on-linux)
