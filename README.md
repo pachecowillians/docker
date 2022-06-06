@@ -141,6 +141,8 @@ Exit from an attached container without stop it
 Ctrl + P + Q
 ```
 
+## Docker image
+
 List all images
 ```zsh
 docker image ls
