@@ -1,6 +1,4 @@
-
-
-## Docker in linux
+# Docker
 
 Run Docker commands in linux without sudo
 
