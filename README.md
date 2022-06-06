@@ -173,6 +173,8 @@ Create an image from a Dockerfile
 docker image build -t <imageName> <dockerfilePath>
 ```
 
+## Docker volume
+
 List volumes
 ```zsh
 docker volume ls
