@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="1200"
+   width="2500"
+   viewBox="12 0.19 487.619 245.2516"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="notion.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.14905811"
+     inkscape:cx="1439.0361"
+     inkscape:cy="808.40956"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     height="2499px" />
+  <path
+     d="m 37.135184,66.033642 c 5.252733,4.26763 7.223258,3.94205 17.08717,3.28388 l 92.990346,-5.58365 c 1.97217,0 0.33224,-1.96754 -0.32559,-2.29446 l -15.44359,-11.16464 c -2.95926,-2.29745 -6.90164,-4.92847 -14.4578,-4.27029 l -90.042712,6.5674 c -3.283869,0.32561 -3.93971,1.96754 -2.632007,3.28356 z m 5.582974,21.67143 v 97.842078 c 0,5.25836 2.627705,7.22558 8.541944,6.90029 l 102.196418,-5.91355 c 5.91721,-0.32526 6.57637,-3.94204 6.57637,-8.21365 V 81.134692 c 0,-4.26468 -1.6406,-6.56445 -5.26271,-6.23619 l -106.796289,6.23619 c -3.941374,0.33121 -5.256057,2.30274 -5.256057,6.57038 z m 100.888062,5.24843 c 0.65519,2.95794 0,5.913241 -2.9636,6.245801 l -4.92379,0.981097 v 72.23325 c -4.27531,2.29777 -8.21767,3.61147 -11.50287,3.61147 -5.25972,0 -6.57705,-1.64295 -10.51678,-6.56511 l -32.2088,-50.56379 v 48.92187 l 10.192178,2.29977 c 0,0 0,5.90726 -8.222969,5.90726 l -22.668827,1.31499 c -0.658507,-1.31499 0,-4.59555 2.299439,-5.25274 l 5.915557,-1.63959 v -64.68405 l -8.213334,-0.65818 c -0.658831,-2.95794 0.981777,-7.222938 5.585639,-7.553828 l 24.318401,-1.63929 33.519496,51.221978 v -45.3124 l -8.54625,-0.98077 c -0.65584,-3.616118 1.9692,-6.241808 5.25572,-6.567418 z M 19.382862,43.707352 113.04168,36.810032 c 11.50153,-0.98642 14.46081,-0.32559 21.68973,4.92548 l 29.89704,21.01327 c 4.93313,3.61344 6.57739,4.59721 6.57739,8.53627 V 186.53389 c 0,7.22293 -2.63135,11.49456 -11.83045,12.14809 l -108.766167,6.56807 c -6.90563,0.32925 -10.192165,-0.65484 -13.808606,-5.25441 L 14.783977,171.4302 C 10.839275,166.17184 9.1986643,162.23809 9.1986643,157.63588 V 55.194942 c 0,-5.90659 2.6320197,-10.83373 10.1841977,-11.48759 z"
+     fill-rule="evenodd"
+     id="path2"
+     style="fill:#f5f5f5;fill-opacity:1;stroke-width:0.332242" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:91.2763px;line-height:1.25;font-family:sans-serif;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:0.475394"
+     x="195.65674"
+     y="166.96191"
+     id="text4079"><tspan
+       sodipodi:role="line"
+       id="tspan4077"
+       style="font-weight:bold;font-size:91.2763px;fill:#f5f5f5;fill-opacity:1;stroke-width:0.475394"
+       x="195.65674"
+       y="166.96191">Notion</tspan></text>
+</svg>
