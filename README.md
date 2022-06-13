@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="img/DockerLogo.svg" height="200"> 
+    <img src="img/docker.svg" height="200"> 
 </div>
 
 [<img src="img/notion.svg" height="70"/>](https://thankful-gear-ff2.notion.site/Docker-0392c78aec8f49fea1f77f341bb9ff2a)
